@@ -1,0 +1,59 @@
+import 'package:may23/may23.dart' as may23;
+
+// Dart is case sensistive
+
+// functions
+  // are block of code use for specific purpose
+  // have name e.g main , add
+  // have return type e.g int , double , string
+  // void means functions have no return type , no return type means no return use in func
+  // functions have parenthesis ' () '
+  // may have empty paramters like this () , and may have parameters like this (int x,int y)
+  // funtion have body means what function will do  {}
+  // are define like this  void sayHello(){}
+  // called after defining
+  // function defining means we defined what type of function and what it do
+
+void say_Hello$(){  // we are defining function
+  print("Hello");
+}
+
+int add(int x,int y)  // we are defining function
+{
+  return x+y;
+}
+
+
+
+void main(){
+  // num x=12;
+  // x=23.4;
+  // print(x);
+
+  // say_Hello$(); // here we calling function
+  // print(add(12, 4));
+
+
+  // Variables and data type topic
+    // Number data type
+// int x=12;
+// //x=2.4;   Not allowed
+// x=45;
+//
+// double y=12;
+// y=3.2;
+//
+// num z=12;
+// z=12.5;
+// print(z);
+
+
+    // Boolean Data type
+bool status=true;
+print(status);
+
+
+
+
+
+}

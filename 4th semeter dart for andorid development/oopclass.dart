@@ -1,0 +1,71 @@
+class Car{
+  //   x , name , model   are instance variables ,
+  //   each object (e.g obj,obj2) have separate copies of x , name ,model variables
+
+  int x =20;  // data members or attributes
+  String? name, model ; // data members or attributes
+  // x , name , model are instance variables
+
+
+  static int y = 100; // y called class variable ,
+
+  void sayHello(){  // functions
+    print("Hello");
+  }
+  String num(){  // functions
+    return "hi";
+  }
+  int num2(){  // functions
+    return 3;  // return keyword
+  }
+
+  static void check_prime(int number){
+    // 5 -> 4,3,2
+    // 7 -> 6,5,4,3,2
+    int check = 0;
+    for(int a = number-1; a >= 2; a--){
+      if(number % a == 0){
+        check++;
+      }
+    }
+    if(check == 0){
+      print("Prime Number");
+    }
+    else{
+      print("Not Prime Number");
+    }
+  }
+
+
+
+}
+
+void main(){
+  Car obj = Car();
+  Car obj2 = Car(); // object is instance of class
+  obj.name = "Mercedes";
+  obj2.name = "Audi";
+
+  //print(obj2.name);
+  //print(obj.name);
+
+  // obj.sayHello();
+  // print(obj.num2());
+  // print(obj.x);
+
+  //print(Car.y); // calling static class variable y
+
+
+  // obj.x = 2;
+  // print(Car.y*obj.x);
+  // obj2.x=3;
+  // print(Car.y*obj2.x);
+
+  // Car.check_prime(3);
+
+
+
+
+
+
+}

@@ -1,0 +1,224 @@
+import 'package:may23/may23.dart' as may23;
+
+// Dart is case sensistive
+
+// functions
+  // are block of code use for specific purpose
+  // have name e.g main , add
+  // have return type e.g int , double , string
+  // void means functions have no return type , no return type means no return use in func
+  // functions have parenthesis ' () '
+  // may have empty paramters like this () , and may have parameters like this (int x,int y)
+  // funtion have body means what function will do  {}
+  // are define like this  void sayHello(){}
+  // called after defining
+  // function defining means we defined what type of function and what it do
+
+void say_Hello$(){  // we are defining function
+  print("Hello");
+}
+
+int add(int x,int y)  // we are defining function
+{
+  return x+y;
+}
+
+
+
+void main(){
+  // num x=12;
+  // x=23.4;
+  // print(x);
+
+  // say_Hello$(); // here we calling function
+  // print(add(12, 4));
+
+
+  // Variables and data type topic
+    // Number data type
+// int x=12;
+// //x=2.4;   Not allowed
+// x=45;
+//
+// double y=12;
+// y=3.2;
+//
+// num z=12;
+// z=12.5;
+// print(z);
+
+
+    // Boolean Data type
+// bool status=true;
+// print(status);
+
+// String str="hello";
+// String str2="world";
+// print(str+str2);
+
+
+// int x,y,z;
+// x=12;
+// y=34;
+// z=32;
+
+
+
+
+
+
+// int x=100;
+// String y="Car";
+// print(x.toString()+y);  // Method 1 to concatenate string with number
+// print("$x , $y");   // Method 2 to concatenate string with number
+
+
+
+        // Var and dynamic keywords , for initializing or declaring variables
+  // int s=12;
+  // s=45;
+  // s=3.4;
+
+
+
+  // var x=12; // at time of creating variable with var , its value type is its type
+  // x=34;
+  // x=23;
+  // print(x);
+
+
+
+  // dynamic t=12; // later we can change value and also type
+  // t=23;
+  // t=6.7;
+  // t="ty";
+  // print(t);
+
+
+  // const int w=70;
+  // w=12;
+
+      // List [] are use to create list
+        // variable list
+/*
+var x=[12,34,56,78,"A"];
+print(x[0]);
+x.add(45);
+x.add("h");
+print(x);
+print(x.length);
+*/
+
+      // Fixed length list
+/*
+var y=List.filled(3, 0);
+y[0]=12;
+y[1]=13;
+y[2]=56;
+// y[3]=11;  NOT Allowe because size is 3
+print(y);
+
+var h=List.filled(2, 0);  //  0 show what is initial value of list locations
+print(h[0]);
+*/
+
+
+  // Map
+    //    key       : value ,  key      : value
+// var m1={'first_name':'Ali' , 'last_name':'hasan', 'age':23};
+// print(m1);
+// print(m1.keys);
+// print(m1.values);
+// print("Firstname: ${m1['first_name']} Lastname: ${m1['last_name']} ");
+
+
+
+// const int x=12;
+// x=34;
+//
+// final int y=34;
+// y=56;
+
+
+    // Arithematic Operators
+    // +,-,*,/,%,
+    // ++,-- Unary operator
+      // ++a  preincrement
+      // a++  postincrement
+      // --a  predecrement
+      // a--  postdecrement
+
+// print(5%2);  1 reminder
+// print(4%2);  0 reminder
+
+
+// var i=23;
+// print(i++);  // i=23 because post increment
+// print(i);    // i=24
+
+// var j=45;
+// print(++j); // j=46 because pre increment
+
+
+// var k=34;
+// print(k--);  // i=34 because post decrement
+// print(k);
+
+
+  // Relational Operators
+    // >,<,>=,<=,==,!=
+    // return type bool true or false
+
+// print(5>2);  // true
+//print(5==3);  // false
+//print(4!=4);   // false
+//print(4<=4);  // true
+//print(4<4); // false
+
+
+// int a=12;
+// int b=6;
+// int c=a+b;
+// // print((c-12)<b); // false
+// print((c-12)<=b); // true
+
+
+
+
+// var j=13;
+// var k=++j;
+// var l=12;
+// // print(k>l); //true
+
+
+// var j=13;
+// var k=++j;
+// var l=12+(k++);
+// print(k<l);
+
+
+
+    // Assighment Operators
+    // =
+    // +=,-=,,*=,/=,%=  Arithematic with Assighment
+
+// dynamic z=12;
+// z=z+12;
+//   z+=12;
+// print(z);
+
+  // z-=12;
+  // print(z);
+
+  // z*=3;
+  // print(z);
+
+  // z/=3;
+  // print(z);
+
+  // z%=3;
+  // print(z);
+
+
+
+}
